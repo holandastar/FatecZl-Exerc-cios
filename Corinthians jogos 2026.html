@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <div style="display: flex;">
+  <header>
     <img src="Imagens/Corinthians_simbolo.png" alt="Escudo do Corinthians" width="120" height="120">
     <h1>Sport Clube Corinthians</h1>
-  </div>
+  </header>
   <title>Corinthians jogos 2026 28/02 a 15/03</title>
 </head>
   <style>
+    header{
+      display: flex;
+      background-color: black;
+      color: white;
+      margin: 0%;
+    }
         table{
           border-collapse: collapse;border: 2px solid black;margin: auto;
             }
@@ -16,63 +22,85 @@
           }
         td{
           text-align: center; border: 2px solid black; border-collapse: collapse;
+          background-color: white;
         }
-        .divcentral{
-          backgorund-color:grey;
-          display:flex;
-          margin:0;
+        .divlistas{
+
+          margin:2vh;
           align-items: center;
-          box-shadow: 2vh solid black;
+          display: flex;
+          margin: 40px;
+          justify-content: space-around;
+          gap: 40px;
+        }
+        .divprincipal{
+            margin: 10vh;
+            background-color:rgb(70, 70, 70);
+            border-radius: 10px;
+            box-shadow: 1dvh solid black;
+            padding: 2vh;
+        }
+        li{
+          color: white;
+        }
+        .texto{
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif;
         }
   </style>
-    <body>
-      <h1>Sport Club Corinthians Paulista: Jogos 28/02 a 15/03</h1>
-        <p>
-          Sport Club Corinthians Paulista (SCCP), criado em 1910. É um clube brasileiro da cidade de São Paulo.
-          Atuando em diversas modalidades de esportes as principais conquistas vieram do futebol,
-          considerado um dos clubes mais bem sucedidos do Brasil e das Américas nos últimos anos.
-        </p>
-          <div class="divcentral">
-          <h2>Principais títulos</h2>
-          <ul> 
-            <li>Dois mundiais.</li>
-              <li> Uma libertadores.</li>
-               <li>Quatoze títulos nacionais.</li>
-          </ul>
-            <a href="https://www.corinthians.com.br/clube/titulos">Veja todos os titulos</a>
-            <h2>Maiores rivais</h2>
-              <ol>
-               <li>Palmeiras</li>
-               <li>São Paulo</li>
+<body>
+  <h1 style="text-align: center;">Sport Club Corinthians Paulista: Jogos 28/02 a 15/03</h1>
+  <p class="texto">
+   Sport Club Corinthians Paulista (SCCP), criado em 1910. É um clube brasileiro da cidade de São Paulo.
+   Atuando em diversas modalidades de esportes as principais conquistas vieram do futebol,
+   considerado um dos clubes mais bem sucedidos do Brasil e das Américas nos últimos anos.
+   </p>
+    <div class="divprincipal"> 
+    <div class="divlistas"> 
+      <div>
+      <h2 style="color: white;">Principais títulos</h2>
+      <ul> 
+        <li>Dois mundiais.</li>
+          <li> Uma libertadores.</li>
+            <li>Quatoze títulos nacionais.</li>
+      </ul>
+        <a href="https://www.corinthians.com.br/clube/titulos">Veja todos os titulos</a>
+        </div>
+        <div>
+        <h2 style="color: white;">Maiores rivais</h2>
+          <ol>
+            <li>Palmeiras</li>
+              <li>São Paulo</li>
                <li>Santos</li>
-              </ol>
-
-                <table>
-                  <tr>
-                    <th>Escudo</th>
-                    <th>Clube</th>
-                    <th>Local da partida</th>
-                    <th>Horario</th>
-                  </tr>
-                    <tr>
-                      <td><a href="https://www.gremionovorizontino.com.br/" ><img src="Imagens/Grêmio_Novorizontino.png" alt="Escudo do Novorizontino" width="100" height="100" ></a></td>
-                      <td style="font-weight: bold;">Novo Horizontino</td>
-                      <td>Estádio Doutor Jorge Ismael de Biasi</td>
-                      <td>20:30</td>
-                    </tr>
-                    <tr>
-                      <td><a  href="https://www.coritiba.com.br/"><img src="Imagens/Coritiba_simbolo.png" alt="Escudo do Coritiba" width="100" height="100"></a></td>
-                      <td style="font-weight: bold;">Coritiba</td>
-                      <td>Neo Química Arena</td>
-                      <td>21:30</td>
-                      </tr>
-                    <tr>
-                      <td><a href="https://www.santosfc.com.br/"><img src="Imagens/escudoSantos.png" alt="Escudo do Santos" width="100" height="100"></a></td>
-                      <td style="font-weight: bold;">Santos</td>
-                      <td>Urbano Caldeira, Santos</td>
-                      <td>16:00</td>
-                      </tr>
-                </table>
-            </div>
+          </ol>
+      </div>
+      </div>
+        <table>
+          <tr>
+            <th>Escudo</th>
+            <th>Clube</th>
+            <th>Local da partida</th>
+            <th>Horario</th>
+          </tr>
+          <tr>
+            <td><a href="https://www.gremionovorizontino.com.br/" ><img src="Imagens/Grêmio_Novorizontino.png" alt="Escudo do Novorizontino" width="100" height="100" ></a></td>
+            <td style="font-weight: bold;">Novo Horizontino</td>
+            <td>Estádio Doutor Jorge Ismael de Biasi</td>
+            <td>20:30</td>
+          </tr>
+            <tr>
+              <td><a  href="https://www.coritiba.com.br/"><img src="Imagens/Coritiba_simbolo.png" alt="Escudo do Coritiba" width="100" height="100"></a></td>
+              <td style="font-weight: bold;">Coritiba</td>
+              <td>Neo Química Arena</td>
+              <td>21:30</td>
+              </tr>
+            <tr>
+              <td><a href="https://www.santosfc.com.br/"><img src="Imagens/escudoSantos.png" alt="Escudo do Santos" width="100" height="100"></a></td>
+              <td style="font-weight: bold;">Santos</td>
+              <td>Urbano Caldeira, Santos</td>
+              <td>16:00</td>
+            </tr>
+        </table>
+    </div>
     </body>
 </html>
