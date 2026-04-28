@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Javascript/Exercícios-Javascript.js"></script>
+    <link rel="stylesheet" href="Css/Exercícios-Javascript.css">
+</head>
+<body>
+    <div class="interface">
+    <img id ="imagem1" src="https://agentedeviagem.com/wp-content/uploads/2024/07/image.jpeg">
+    <button id="botao-mudar" onclick="ocultarImagem()">Clique para Ocultar a imagem</button>
+     <div class="limpando-conteúdo">
+       <input type="text" id="caixa-texto" placeholder="seu texto">
+       <button onclick="apagarTexto()">Clique para apagar o texto</button>
+       <button onclick="inserirTexto()">Clique para inserir texto</button>
+       </div>
+       <div id="texto"></div>
+     
+    <p>Em qual continente a Suiça está?</p>
+      <div>
+        <p id="resposta-errada">Você errou</p>
+        <p id="resposta-certa">Você acertou</p>
+        <button onclick="perguntaErrada()">America do Norte</button>
+        <button onclick="perguntaErrada()">Asia</button>
+        <button onclick="perguntaCerta()">Europa</button>
+      </div>
+        <input type="text" id="tarefa" placeholder="Digite uma tarefa">
+        <button onclick="adicionarTarefa()">Adicionar</button>
+        <ul id="lista"></ul>
+    
+    <div class="convertor">
+        <h4>Convertor de Temperatura Celsius para Fahrenheit</h4>
+        <input type="number" id="graus-input" placeholder="Graus">
+        <button onclick="converterTemperatura()">Converter</button>
+        <div id="resultado-conversao"></div>
+    </div>
+    <div class="semaforo">
+        <div id="vermelho"></div>
+        <div id="amarelo"></div>
+        <div id="verde"></div>
+        <button onclick="corVermelha()">Acender o vermelho</button>
+        <button onclick="corAmarela()">Acender o amarelo</button>
+        <button onclick="corVerde()">Acender o verde</button>
+    </div>
+        <input type="number" id="numero" placeholder="Digite um número">
+        <button onclick="gerarTabuada()">Gerar Tabuada</button>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
