@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* - - Header cabeçalho - - */
+header {
+    max-height: 99px;
+}
+.nav-bar-main{
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.nav-bar-left{
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    padding-right: 10px;
+}
+.nav-logo img{
+    margin-left: 18px;
+    padding-top: 8px;
+    max-height:49px;
+}
+.nav-endereco{
+    display: flex;
+    align-items: center;
+    width: 301px;
+}
+.nav-endereco img{
+    margin-top: 8px;
+    height: 22px;
+    width: auto;
+}
+.nav-endereco-txt p{
+    font-size: 12px;
+    color: #c9c9c9;
+    margin-bottom: 0;
+}
+.nav-endereco-txt h6{
+    color: #EAEAEA;
+    font-size: 14px;
+}
+.nav-bar-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+.nav-bar-right p{
+    font-size: 12px;
+    color: #e9e9e9;
+    margin-bottom: 0;
+}
+.nav-bar-right h6{
+    color: #EAEAEA;
+    font-size: 14px;
+}
+.nav-bar-right section:hover {
+    border: 2px solid #EAEAEA;
+}
+.carrinho  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.carrinho img {
+    width: 39px;
+    height: 39px;
+}
+.nav-bar-bottom {
+    background-color: #232F3E;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+.nav-bar-bottom h6{
+    color: #EAEAEA;
+    font-size: 14px;
+}
+.nav-bar-bottom img{
+    width: 27px;
+    height: auto;
+}
+/* - - FIM Header cabeçalho - -*/
